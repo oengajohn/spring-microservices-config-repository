@@ -4,7 +4,7 @@ spring:
     #   uri: mongodb://root:generic@localhost:27017/inventorydb
         host: localhost
         port: 27017
-        database: inventorydb
+        database: qainventorydb
         username: root
         password: generic
         authentication-database: admin
