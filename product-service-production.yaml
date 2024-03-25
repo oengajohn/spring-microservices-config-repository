@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/prdproductdb
+    username: root
+    password: generic
+  application:
+    name: product-service
+  config:
+    import: optional:configserver:http://localhost:8888
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
