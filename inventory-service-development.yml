@@ -2,7 +2,7 @@ spring:
   data:
     mongodb:
     #   uri: mongodb://root:generic@localhost:27017/inventorydb
-        host: localhost
+        host: ${MONGO_HOST:localhost}
         port: 27017
         database: inventorydb
         username: root
